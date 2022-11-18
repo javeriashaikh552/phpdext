@@ -55,7 +55,7 @@ $row = mysqli_fetch_assoc(mysqli_query($conn,"select * from user where id='$id'"
                 </div>
                 <label for="colFormLabel" class="col-sm-2 col-form-label col-form-label">image</label>
                 <div class="col-sm-10">
-                    <input type="text"  value="<?= $row['image'] ?>" class="form-control form-control-sm" id="colFormLabel" placeholder=" Enter your password" name="txtpassword">
+                    <input type="text"  value="<?= $row['image'] ?>" class="form-control form-control-sm" id="colFormLabel" placeholder=" Enter your image" name="txtimage">
                 </div>
               
           
